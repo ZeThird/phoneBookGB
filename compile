@@ -1,11 +1,11 @@
 #!/bin/bash
 
-javac phoneNums.java
+javac PhoneNums.java
 
 echo "Run file?"
 decision=""
 read decision
 if [[ $decision = "y" ]]; then
-	java phoneNums
+	java PhoneNums
 fi
 
